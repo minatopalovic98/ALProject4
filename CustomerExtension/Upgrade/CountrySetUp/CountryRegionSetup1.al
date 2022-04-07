@@ -48,5 +48,7 @@ page 50100 "Country/Region Setup"
         /// sdfgsf
         /// asdfasdgas
         /// sdgfads
+        /// 
+        /// promjena u masteru
     end;
 }
