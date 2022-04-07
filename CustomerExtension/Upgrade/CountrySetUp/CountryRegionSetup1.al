@@ -43,7 +43,7 @@ page 50100 "Country/Region Setup"
             Rec.Insert();
         end;
         // promjena na feature 1
-        /// x
+        /// x werwer
         /// sdgsdfg
         /// sdfgsf
         /// asdfasdgas
