@@ -2,13 +2,6 @@ codeunit 50102 "Country/Region-Install"
 {
     Subtype = Install;
 
-    trigger OnRun()
-    var
-        myInt: Integer;
-    begin
-
-    end;
-
     trigger OnInstallAppPerCompany();
     var
         UpgradeTag: Codeunit "Upgrade Tag";
@@ -33,7 +26,7 @@ codeunit 50102 "Country/Region-Install"
 
     begin
         CountryRegionSetup.Init();
-        CountryRegionSetup."Country/Region Code" := 'RS';
+        CountryRegionSetup."Country/Region Code" := 'GR';
         if not CountryRegionSetup.Insert() then
             CountryRegionSetup.Modify();
 
