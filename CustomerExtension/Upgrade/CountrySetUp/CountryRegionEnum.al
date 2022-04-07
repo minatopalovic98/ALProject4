@@ -18,4 +18,8 @@ enum 50100 "Country/Region Enum"
     {
         Caption = 'Greece';
     }
+    value(4; ES)
+    {
+        Caption = 'Estonia';
+    }
 }
