@@ -42,6 +42,6 @@ page 50100 "Country/Region Setup"
             Rec.Init();
             Rec.Insert();
         end;
-
+        // promjena na feature 1
     end;
 }
