@@ -24,6 +24,9 @@ codeunit 50102 "Country/Region-Install"
         UpgradeTag.SetAllUpgradeTags();
     end;
 
+    /// <summary>
+    /// HandleFreshInstall.
+    /// </summary>
     procedure HandleFreshInstall();
     var
         CountryRegionSetup: Record "Country Setup";
