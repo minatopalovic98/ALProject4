@@ -47,4 +47,6 @@ codeunit 50102 "Country/Region-Install"
             CountryRegionSetup.Modify();
 
     end;
+
+    //neka promena za Sandija
 }
