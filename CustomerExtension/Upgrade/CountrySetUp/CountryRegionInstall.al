@@ -33,7 +33,8 @@ codeunit 50102 "Country/Region-Install"
 
     begin
         CountryRegionSetup.Init();
-        CountryRegionSetup."Country/Region Code" := 'FR';
+        CountryRegionSetup."Country/Region Code" := 'I';
+        CountryRegionSetup."Country/Region Code" := 'RS';
         if not CountryRegionSetup.Insert() then
             CountryRegionSetup.Modify();
 
