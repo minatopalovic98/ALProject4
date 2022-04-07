@@ -43,6 +43,7 @@ page 50100 "Country/Region Setup"
             Rec.Insert();
         end;
         // promjena na feature 2
+        // dsfadsfafs
         /// 
         /// promjena u masteru
     end;
