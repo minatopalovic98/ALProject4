@@ -50,4 +50,5 @@ codeunit 50101 "Country/Region-Upgrade"
     var
         ReasonLbl: Label 'BeTerna-SetupEnum-20220406', Locked = true;
     //moja nova izmena
+    //moja druga izmena
 }
