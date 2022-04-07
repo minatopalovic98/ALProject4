@@ -33,7 +33,7 @@ codeunit 50102 "Country/Region-Install"
 
     begin
         CountryRegionSetup.Init();
-        CountryRegionSetup."Country/Region Code" := 'TRI';
+        CountryRegionSetup."Country/Region Code" := 'KK';
         CountryRegionSetup."Country/Region Code" := 'GR';
         CountryRegionSetup."Country/Region Code" := 'LR';
         if not CountryRegionSetup.Insert() then
